@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us | KOAS Corporation Limited</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">KOAS</div>
+
+  <!-- DESKTOP NAV -->
+  <nav class="desktop-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="compliance.html">Compliance</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- HAMBURGER -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<!-- MOBILE MENU (OUTSIDE HEADER – IMPORTANT) -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="menu-card"><a href="index.html">Home</a></div>
+  <div class="menu-card"><a href="about.html">About</a></div>
+  <div class="menu-card"><a href="services.html">Services</a></div>
+  <div class="menu-card"><a href="portfolio.html">Portfolio</a></div>
+  <div class="menu-card"><a href="compliance.html">Compliance</a></div>
+  <div class="menu-card"><a href="contact.html">Contact</a></div>
+</div>
+
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+
+    <div class="hero-left">
+      <img src="images/logo.png" class="floating-logo" alt="KOAS Logo">
+      <h1>Contact KOAS</h1>
+      <p>
+        Let’s talk business. Reach out for enquiries,
+        quotations, or partnerships.
+      </p>
+    </div>
+
+    <div class="hero-right">
+      <img src="images/contactus.jpg" class="hero-image" alt="Contact KOAS">
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT OPTIONS -->
+<section class="contact-section">
+
+  <div class="contact-grid reveal">
+
+    <div class="contact-card glass">
+      <h2>WhatsApp</h2>
+      <p>Fastest way to reach us.</p>
+      <a href="https://wa.me/260572082911" target="_blank" class="btn">
+        Chat on WhatsApp
+      </a>
+    </div>
+
+    <div class="contact-card glass">
+      <h2>Email</h2>
+      <p>Send documents or enquiries.</p>
+      <span class="detail">koascorporationlimited@gmail.com</span>
+      <a href="mailto:koascorporationlimited@gmail.com" class="btn-outline">Send Email</a>
+    </div>
+
+    <div class="contact-card glass">
+      <h2>Phone</h2>
+      <p>Office hours support.</p>
+      <span class="detail">+260 572 082 911 </span>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT FORM -->
+<form
+  class="contact-form"
+  action="mailto:info@koascorp.com"
+  method="post"
+  enctype="text/plain"
+>
+  <input
+    type="text"
+    name="Full Name"
+    placeholder="Full Name"
+    required
+  >
+
+  <input
+    type="email"
+    name="Email"
+    placeholder="Email Address"
+    required
+  >
+
+  <input
+    type="text"
+    name="Subject"
+    placeholder="Subject"
+    required
+  >
+
+  <textarea
+    name="Message"
+    placeholder="Your Message"
+    rows="5"
+    required
+  ></textarea>
+
+  <button type="submit" class="btn primary">
+    Send Message
+  </button>
+</form>
+
+
+<!-- FOOTER -->
+<footer>
+  © 2026 KOAS Corporation Limited. All Rights Reserved.
+</footer>
+
+<script src="js/contact.js"></script>
+</body>
+</html>
